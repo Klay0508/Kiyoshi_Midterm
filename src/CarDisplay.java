@@ -4,7 +4,7 @@ public class CarDisplay {
         System.out.println(car);
 
         Truck truck = new Truck("Son","Extra Large","TRK999",5000);
-        System.out.println(truck);
+        System.out.println(truck);//number 5
 
         Sedan sedan = new Sedan("Mother", "Medium", 4, 2000,"ABC123");
         System.out.println(sedan);
@@ -51,7 +51,7 @@ class Car {
     @Override
     public String toString() {
         return  "My " + name + " has/have a most luxurious car in my family." +
-                " and license plate  is " + licensePlate;//number 1
+                " and license plate  is " + licensePlate;//number 2
     }
 }
 
